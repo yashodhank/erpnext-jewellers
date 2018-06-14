@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpnext_jewellers *.css
+recursive-include erpnext_jewellers *.csv
+recursive-include erpnext_jewellers *.html
+recursive-include erpnext_jewellers *.ico
+recursive-include erpnext_jewellers *.js
+recursive-include erpnext_jewellers *.json
+recursive-include erpnext_jewellers *.md
+recursive-include erpnext_jewellers *.png
+recursive-include erpnext_jewellers *.py
+recursive-include erpnext_jewellers *.svg
+recursive-include erpnext_jewellers *.txt
+recursive-exclude erpnext_jewellers *.pyc
